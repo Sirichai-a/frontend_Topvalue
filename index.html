@@ -1,0 +1,750 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <title>Topvalue</title>
+
+  <style>
+    .square {
+      height: 20px;
+      width: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- header -->
+  <nav class="navbar navbar-light ">
+    <div class="container">
+      <div class="col-3">
+        <a class="navbar-brand mb-2" href="#">
+          <img src="images/logo.png" width="80%" height="" alt="80%" loading="lazy">
+        </a>
+      </div>
+      <div class="col-5">
+        <form class="form-inline mb-3">
+          <input class="form-control w-75" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-danger" type="submit">Search</button>
+        </form>
+      </div>
+      <div class="col-2">
+        <p>
+          <img src="images/call.png" class="" style="object-fit: inherit; width: 10%; height:5%;">
+          <a href="#" class="text-danger">1277</a>
+        </p>
+      </div>
+      <div class="col-1">
+        <p>
+          <img src="images/user.png" class="" style="object-fit: inherit; width: 15%; height:10%;">
+          <a href="#" class="text-black-50">สมาชิก</a>
+        </p>
+      </div>
+      <div class="col-1">
+        <p>
+          <img src="images/shopping-cart.png" class="" style="object-fit: inherit; width: 15%; height:10%;">
+          <a href="#" class="text-black-50">รถเข็น</a>
+        </p>
+      </div>
+    </div>
+  </nav>
+
+  <!-- redbar(Menu) -->
+  <div class="bg-danger  text-nowrap ">
+    <div class="container">
+      <div class="row justify-content-around">
+        <div class="col-auto">
+          <a href="#" class="text-light text-center">หมวดหมู่สินค้า</a>
+        </div>
+        <div class="col-auto">
+          <a href="#" class="text-light text-center">FLASHSALE</a>
+        </div>
+        <div class="col-auto">
+          <a href="#" class="text-light text-center">BESTSELLER</a>
+        </div>
+        <div class="col-auto">
+          <a href="#" class="text-light text-center">สิทธิพิเศษจากพาร์ทเนอร์</a>
+        </div>
+        <div class="col-auto">
+          <a href="#" class="text-light text-center">สินค้าผ่อน 0%</a>
+        </div>
+        <div class="col-auto">
+          <a href="#" class="text-light text-center">บทความน่าสนใจ</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Breadcrumb -->
+  <div class="container">
+    <ol class="breadcrumb bg-transparent">
+      <li class="breadcrumb-item"><a href="#"><small>หน้าแรก</small></a></li>
+      <li class="breadcrumb-item"><a href="#"><small>โทรศัพท์มือถือ/แทบเล็ต</small></a></li>
+      <li class="breadcrumb-item"><a href="#"><small>โทรศัพท์มือถือ</small></a></li>
+      <li class="breadcrumb-item"><a href="#"><small>CATE MOBILE</small></a></li>
+      <li class="breadcrumb-item"><a href="#"><small>PROMOTION SEPTEMBER 2018 SMARTPHONE BRANDS</small></a></li>
+      <li class="breadcrumb-item"><a href=""><small> SAMSUNG GALAXY J8 32GB(เครื่องศูนย์ไทย)</small></a></li>
+    </ol>
+  </div>
+
+  <!-- product -->
+  <div class="container">
+    <div class="row mb-3">
+      <div class="col-4">
+        <div class="mx-1">
+          <div class="row">
+            <div class="col-12">
+              <div id="carousel" class="carousel slide border" data-ride="carousel">
+                <div class="carousel-inner" style="height: 400px;">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/phone.png" style="object-fit: scale-down;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/card1.png" style="object-fit: scale-down;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/card2.png" style="object-fit: scale-down;">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="images/card3.png" style="object-fit: scale-down;">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-3">
+              <img src="images/phone.png" style="height: 40px;" data-target="#carousel" data-slide-to="0">
+            </div>
+            <div class="col-3">
+              <img src="images/card1.png" style="height: 40px;" data-target="#carousel" data-slide-to="1">
+            </div>
+            <div class="col-3">
+              <img src="images/card2.png" style="height: 40px;" data-target="#carousel" data-slide-to="2">
+            </div>
+            <div class="col-3">
+              <img src="images/card3.png" style="height: 40px;" data-target="#carousel" data-slide-to="3">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-5 border">
+        <div class="row">
+          <div class="ml-3 my-3">
+            <p class="mb-0 font-weight-bold">SAMSUNG GARAXY J8 32GB (เครื่องศูนย์ไทย)</p>
+            <small class="text-muted">SKU:110007416</small>
+            <div class="row">
+              <div class="col-6 mb-0">
+                <p class="mb-0 font-weight-bold">
+                  <img src="images/rating.png" class="" style="display: inline; width: 50%;">
+                  15 รีวิว
+                </p>
+              </div>
+              <div class="col-6">
+                <div class="dropdown text-right mr-3">
+                  <img src="images/icon/share.png" class=" dropdown-toggle mx-1"
+                    style="object-fit: inherit; width:10%; height:5%;" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <p class="dropdown-item">
+                      แชร์โดย:
+                      <a href="">
+                      <img src="images/facebook.png" style="object-fit: inherit; height: 40px;">
+                      </a>  
+                      <a href="">
+                      <img src="images/twitter.png" style="object-fit: inherit; height: 40px;">
+                      </a>
+                    </p>
+                  </div>
+                  <img src="images/icon/like.png" class="mx-1" style="object-fit: inherit; width:10%; height:5%;">
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">แบรนด์: สินค้า Samsung สินค้า | โทรศัพท์มือถือ/แทบเล็ต Samsung</small>
+          </div>
+        </div>
+        <div class="row border-top">
+          <div class="container my-3">
+            <div class="row">
+              <div class="container">
+                <p class="text-danger mb-0 font-weight-bold">8750 บาท</p>
+                <p class="text-muted mb-0"><s> 9490 บาท</s> -7%</p>
+              </div>
+              <div class="row">
+                <label class="col-sm-auto text-muted mx-3">(Include VAT)</label>
+                <p class="col-sm-auto"><small>โปรโมชั่นหรือราคาข้างต้นจะอยู่ถึง 30/09/2018</small></p>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-auto">
+                โปรโมชั่น
+              </div>
+              <div class="col-auto">
+                <button type="button" class="btn btn-outline-success btn-sm">ส่วนลด1000.-</button>
+              </div>
+              <div class="col-auto">
+                <button type="button" class="btn btn-outline-primary btn-sm">มีของแถม</button>
+              </div>
+              <div class="col-auto">
+                <div class="dropdown">
+                  <button class="btn btn-outline-danger btn-sm dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ผ่อน 0%
+                  </button>
+                  <div class="dropdown-menu" style="width: 450px;" aria-labelledby="dropdownMenuButton">
+                    <div class="dropdown-item">
+                      <div class="row">
+                        <div class="col-1">
+                          <img src="images/icon/voucher.png" style="object-fit: inherit; width:1.5rem; height:1.5rem;">
+                        </div>
+                        <div class="col-10">
+                          <p class="text-wrap">
+                            คูปองส่วนลด 1,000 บาท เมื่อซื้อครบ 5,000 บาท <br>
+                            ใส่โค้ด DIS1000
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row justify-content-end">
+                        <div class="text-right">
+                          <button class="btn btn-danger btn-sm rounded-0">คัดลอกโค้ด</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <div class="dropdown-item">
+                      <div class="row">
+                        <div class="col-1">
+                          <img src="images/icon/gift.png" style="object-fit: inherit; width:1.5rem; height:1.5rem;">
+                        </div>
+                        <div class="col-10">
+                          <p class="text-wrap">
+                            แถมฟรีหัวฟักเบัว 1 ชิ้น <br>
+                            ใส่โค้ด FREEGIFT
+                          </p>
+                        </div>
+                      </div>
+                      <div class="row justify-content-end">
+                        <div class="text-right">
+                          <button class="btn btn-danger btn-sm rounded-0">คัดลอกโค้ด</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="dropdown-item">
+                      <div class="row">
+                        <div class="col-1">
+                          <img src="images/icon/credit-card.png"
+                            style="object-fit: inherit; width:1.5rem; height:1.5rem;">
+                        </div>
+                        <div class="col-10">
+                          <p class="text-wrap">
+                            ผ่อน 0% กับธนาคารที่ร่วมรายการ <br>
+                            <p class="ml-3">
+                              3เดือน, 6เดือน, 10เดือน <br>
+                              3เดือน, 6เดือน, 10เดือน <br>
+                              3เดือน, 6เดือน, 10เดือน <br>
+                              3เดือน, 6เดือน, 10เดือน <br>
+                              3เดือน, 6เดือน, 10เดือน <br>
+                              3เดือน, 6เดือน, 10เดือน
+                            </p>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row border-top">
+          <div class="container my-3">
+            <div class="row">
+              <div class="col-6">
+                <div class="form-group row">
+                  <label for="color" class="col-sm-6 col-form-label">เลือกสี:<b class="text-danger">*</b></label>
+                  <div class="col-sm-6">
+                    <button class="btn bg-dark square"></button>
+                    <button class="btn bg-primary square"></button>
+                    <button class="btn bg-light square"></button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <p class="text-danger text-right">*กรุณาเลือก</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div class="form-group row">
+                  <label for="quantity" class="col-sm-6 col-form-label">จำนวน</label>
+                  <div class="col-sm-6">
+                    <input type="number" class="form-control" id="quantity" value="1" min="1">
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="text-right">
+                  <button class="btn btn-danger rounded-0">หยิบใส่รถเข็น</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="container bg-light">
+          <div class="row">
+            <div class="mx-2 my-2">
+              <label class="text-muted"><small>การจัดส่ง</small> </label>
+              <p>
+                <img src="images/icon/calendar.png" class="" style="object-fit: inherit; width: 10%; height:5%;">
+                <small class="font-weight-bold">ส่งถึงใน 1-3 วันทำการ</small>
+              </p>
+              <img src="images/icon/delivery-truck.png" class="" style="object-fit: inherit; width: 10%; height:15%;">
+              <small class="font-weight-bold">จัดส่งฟรี/เก็บเงินปลายทางได้</small><br>
+              <small class="text-muted">เมื่อซื้อ 299.-ขึ้นไป(กรุงเทพ ปริมณฑล)และ 799.-ขึ้นไป(ต่างจังหวัด)</small>
+            </div>
+          </div>
+          <div class="row border-top">
+            <div class="mx-2 my-2">
+              <label class="text-muted"><small>การรับประกันสินค้า</small></label>
+              <p>
+                <img src="images/icon/check-mark.png" class="" style="object-fit: inherit; width: 10%; height:5%;">
+                <small class="font-weight-bold">ตรวจสอบและจัดจำหน่ายโดย topvalue</small>
+              </p>
+              <p>
+                <img src="images/icon/7-day.png" class="" style="object-fit: inherit; width: 10%; height:5%;">
+                <small class="font-weight-bold">เปลี่ยน/คืนสินค้าใน7วัน</small>
+              </p>
+              <p class="mb-0">
+                <img src="images/icon/waranty.png" class="" style="object-fit: inherit; width: 10%; height:5%;">
+                <small class="font-weight-bold">รับประกัน1ปี</small>
+              </p>
+            </div>
+          </div>
+          <div class="row border-top">
+            <div class="mx-2 my-2">
+              <p>
+                <img src="images/icon/open-box.png" class="" style="object-fit: inherit; width: 10%; height:5%;">
+                <small class="font-weight-bold">ซื้อแล้ว 124ชิ้น</small>
+              </p>
+              <p>
+                <img src="images/icon/loupe.png" class="" style="object-fit: inherit; width: 10%; height:5%;">
+                <small class="font-weight-bold">เข้าชม18,458ครั้ง</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- desciption -->
+    <div class="row">
+      <div class="col-9 border" style="padding-right: 0px; padding-left: 0px;">
+        <div class="">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                aria-selected="true">รายละเอียด</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+                aria-selected="false">ADDITIONAL INFORMATION</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                aria-selected="false">รีวิว</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+              <div class="mx-4 my-4">
+                <p>
+                  <label class="font-weight-light">แนะนำสินค้า</label>
+                  <p class="font-weight-bold">Samsung Gajaxy J8 32GB (เครื่องศูนย์ไทย)</p>
+                  <p>
+                    พร้อมสัมผัสสีที่สดใสอย่างแท้จริงหรือยัง Galaxy J8 ให้ภาพที่ดูมีชีวิตชีวาได้จนถึงขอบหน้าจอของอุปกรณ์
+                    ด้วย Infinity Display ที่อัดแน่นด้วยน้าจอ
+                    Super AMOLED HD+ ขนาด 6.0 นิ้ว พร้อม <br>
+                    สัดส่วนหน้าจอขนาด 18:5:9 ทำให้คุณได้รับประสบการณ์การรับชมที่สมจริงยิ่งขึ้นแบบสูงสุดทั่วทั้งหน้าจอ
+                  </p>
+                  <p class="font-weight-bold">ข้อมูลเครือข่าย (Network)</p>
+                  <ul class="list-unstyled">
+                    <ul>
+                      <li>เครื่อข่าย</li>
+                      - GSM 850/900/1800/1900 MHz <br>
+                      - UMTS 850/900/1900/2100 MHz <br>
+                      - LTE Bands 1/2/3/4/5/6/7/8/12/17/20/28 <br>
+                      <li>เทคโนโลยีการรับ/ส่งข้อมูล</li>
+                      - 2G: EDGE/GPRS <br>
+                      - 3G: HSPA+ <br>
+                      - 4G <br>
+                      <li>ใช้งาน Nano-SIM</li>
+                      <li>รองรับ 2 ซิม</li>
+                    </ul>
+                  </ul>
+                  <p class="font-weight-bold">ข้อมูลตัวเครื่อง</p>
+                  <ul class="list-unstyled">
+                    <ul>
+                      <li>สมาร์ทโฟน (โทรศัพท์มือถือพร้อมระบบปฏิบัติการ)</li>
+                      <li>จอแสดงผล Super AMOLED 24-bit (16 ล้านสี)</li>
+                      - ระบบสัมผัส Multi-Touch <br>
+                      - กว้าง 6 นิ้ว (แนวทะแยง) <br>
+                      - ความละเอียด 1480 x 720 พิกเซล <br>
+                      - Capacitive<br>
+                      <li>ระบบเซ็นเซอร์ (Senser)</li>
+                      - ระบบตรวจลายนิ้วมือ (Finger Print)<br>
+                      - ระบบจดจำใบหน้า (Face Detection)<br>
+                      - ระบบหมุนภาพอัตโนมัติ (Accelerometer)<br>
+                      - ระบบเปิด/ปิดหน้าจออัตโนมัติขณะสนทนา (Proximity)
+                    </ul>
+                  </ul>
+                  <p class="font-weight-bold">ระบบปฏิบัตการ (OS, CPU)</p>
+                  <ul class="list-unstyled">
+                    <ul>
+                      <li>ระบบปฏิบัติการ: Android 8.0 (Oreo)</li>
+                      <li>หน่วยประมวณผล: Qualcomm Snapdragon 450 Octa Core</li>
+                      - ความเร็ว: 1.8 GHz<br>
+                      <li>หน่วยความจำ 32 GB(ตัวเครื่อง)</li>
+                      - RAM 3GB <br>
+                      <li>การ์ดหน่วยความจำ</li>
+                      - microSD สูงสุด 256 GB
+                    </ul>
+                  </ul>
+                  <p class="font-weight-bold">ระบบเชื่อมต่อ</p>
+                  <ul class="list-unstyled">
+                    <ul>
+                      <li>การหาตำแหน่ง: Assisted GPS</li>
+                      <li>WIFI 802.11b/g/n</li>
+                      - จุดกระจายสัญญาณอินเตอร์เน็ตแบบพกพา (Portable Wi-Fi Hotsport)<br>
+                      - เชื่อมต่อไร้สายระหว่างอุปกรณ์โดยตรง (Wi-Fi Direct)<br>
+                      <li>Bluetooth 4.2</li>
+                      - รองรับชุดหูฟังสตูดิโอ (A2DP Bluetooth Stereo)<br>
+                      <li>ANT+</li>
+                      <li>Micro USB 2.0</li>
+                      <li>ช่องเสียบชุดหูฟัง 3.5 มิลลิเมตร</li>
+                    </ul>
+                  </ul>
+                  <p class="font-weight-bold">ใช้งานอินเตอร์เน็ต</p>
+                  <ul class="list-unstyled">
+                    <ul>
+                      <li>โซเชียลเน็ตเวิร์คแอพฯ Facebook, Twitter</li>
+                    </ul>
+                  </ul>
+                  <p class="font-weight-bold">รับ-ส่งข้อความ (Messaging)</p>
+                  <ul class="list-unstyled">
+                    <ul>
+                      <li>SMS, MMS</li>
+                      <li>ข้อความแชท Skype</li>
+                    </ul>
+                  </ul>
+                  <p class="font-weight-bold">ฟังก์ชั่นมัลติมีเดีย</p>
+                  <ul class="list-unstyled">
+                    <ul>
+                      <li>กล้องดิจิตอล 16 + 5 ล้านพิกเซล (Dual Camera)</li>
+                      - รูรับแสงขนาด <label class="font-italic">f</label>/1.7<br>
+                      - ไฟแฟลช LED <br>
+                      - โฟกัสอัตโนมัติ (Auto Focus)<br>
+                      - แตะเลือกจุดโฟกัส (Touch Focus)<br>
+                      - ค้นหาใบหน้าอัตโนมัติ (Face Detection)<br>
+                      - โหมดถ่ายภาพพาโนราม่า (Panorama)<br>
+                      <li>โหมดถ่ายภาพช่วงการรับแส่งสูง (HDR)</li>
+                      <li>กล้องหน้า (Front Camera)</li>
+                      - ความละเอียด 16<br>
+                      - ไฟแฟลช LED <br>
+                      - รูรับแสงขนาด <label class="font-italic">f</label>/1.9
+                      <li>บันทึกวีดีโอ ภาพเคลื่อนไหว (Video Recording)</li>
+                      - รูปแบบไฟล์วีดีโอ: MPEG-4 <br>
+                      <li>เครื่องเล่นวีดีโอ (Video Player)</li>
+                      - รูปแบบไฟล์: MPEG-4, 3GP, WMV, FLV, ASF, 3G2, M4V, AVI, MKV <br>
+                      - รองรับวีดีโอจาก YouTube <br>
+                      <li>เครื่องเล่นเพลง (Music Player)</li>
+                      - รูปแบบไฟล์: AMR, AWB, AAC, MP3, M4A, 3GA, WAV, WMA, MIDI, MXMF, OGG, IMY, FLAC, OTA, MID
+                    </ul>
+                  </ul>
+                  <p class="font-weight-bold">การโทร และ ฟังก์ชั่นพื้นฐาน</p>
+                  <ul class="list-unstyled">
+                    <ul>
+                      <li>ออร์กาไนเซอร์</li>
+                      - ปฏิทิน, เครื่องคิดเลข, นาฬิกาปลุก, จดบันทึก <br>
+                      <li>ริงโทน MP3</li>
+                      - ระบบสั่น (Vibration in Phone)
+                    </ul>
+                  </ul>
+                  <p class="font-weight-bold">แบตเตอรี่</p>
+                  <ul class="list-unstyled">
+                    <ul>
+                      <li>แบตเตอรี่มาครฐาน 3,500 mAh (Standard Battery)</li>
+                      <li>การใช้งานแบตเตอรี่</li>
+                      - สนทนาต่อเนื่อง 3G 23 ชั่วโมง (Talk Time)<br>
+                      - ชมวีดีโอนานต่อเนื่อง 20 ชั่วโมง (Video playback time)<br>
+                      - ฟังเพลงต่อเนื่อง 112 ชั่วโมง (Music playback time)
+                    </ul>
+                  </ul>
+                  <p class="font-weight-bold">รับประกันสินค้า</p>
+                  <ul class="list-unstyled">
+                    <ul>
+                      <li>รับประกันสินค้า 1 ปี (Samsung Call Center : 1282 หรือ 0-2689-3232)</li>
+                    </ul>
+                  </ul>
+                  <label class="font-weight-light">รูปภาพสินค้า</label>
+                  <p class="h1 text-center my-4">สีสันสดใสไปกับหน้าจอ</p>
+                  <p class="h2 text-center">sAMOLED</p>
+                  <p class="text-center">
+                    พร้อมสัมผัสสีที่สดใสอย่างแท้จริงหรือยัง Galaxy J8 ให้ภาพที่ดูมีชีวิตชีวาได้จนถึงขอบหน้าจอของอุปกรณ์
+                    ด้วย Infinity Display ที่อัดแน่นด้วยน้าจอ
+                    Super AMOLED HD+ ขนาด 6.0 นิ้ว พร้อม
+                    สัดส่วนหน้าจอขนาด 18:5:9 ทำให้คุณได้รับประสบการณ์การรับชมที่สมจริงยิ่งขึ้นแบบสูงสุดทั่วทั้งหน้าจอ
+                  </p>
+                  <img class="img-fluid" src="images/product.png" alt="Responsive image">
+                </p>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card rounded-0" style="width:auto;">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item text-center">สินค้าแนะนำ</li>
+            <li class="list-group-item text-center">
+              <img class="img-fluid my-4" src="images/card1.png" alt="Responsive image">
+              <p class="text-muted text-left mb-0 "><small>HUAWEI P2O PRO 128GB (เครื่องศูนย์ไทย)</small></p>
+              <p class="text-left text-danger mb-0">22,600 บาท</p>
+              <div class="row">
+                <div class="col-6">
+                  <p class="text-muted text-left mb-0 "><s><small>25,990 บาท</small></s></p>
+                </div>
+                <div class="col-6">
+                  <p class="text-muted text-right mb-0 "><small>-13%</small></p>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item text-center">
+              <img class="img-fluid my-4" src="images/card2.png" alt="Responsive image">
+              <p class="text-muted text-left mb-0"><small>HUAWEI P2O 128GB (เครื่องศูนย์ไทย)</small></p>
+              <p class="text-left text-danger mb-0">16,500 บาท</p>
+              <div class="row">
+                <div class="col-6">
+                  <p class="text-muted text-left mb-0 "><s><small>19,990 บาท</small></s></p>
+                </div>
+                <div class="col-6">
+                  <p class="text-muted text-right mb-0 "><small>-17%</small></p>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item text-center">
+              <img class="img-fluid my-4" src="images/card3.png" alt="Responsive image">
+              <p class="text-muted text-left mb-0"><small>SAMSUNG GALAXY NOTE 9 128GB</small></p>
+              <p class="text-left text-danger mb-0">31,390 บาท</p>
+              <div class="row">
+                <div class="col-6">
+                  <p class="text-muted text-left mb-0 "><s><small>33,900 บาท</small></s></p>
+                </div>
+                <div class="col-6">
+                  <p class="text-muted text-right mb-0 "><small>-7%</small></p>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item text-center">
+              <img class="img-fluid my-4" src="images/card4.png" alt="Responsive image">
+              <p class="text-muted text-left mb-0"><small>SAMSUNG GALAXY S9 64GB (เครื่องศูนย์ไทย)</small></p>
+              <p class="text-left text-danger mb-0">25,590 บาท</p>
+              <div class="row">
+                <div class="col-6">
+                  <p class="text-muted text-left mb-0 "><s><small>27,900 บาท</small></s></p>
+                </div>
+                <div class="col-6">
+                  <p class="text-muted text-right mb-0 "><small>-8%</small></p>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item text-center">
+              <img class="img-fluid my-4" src="images/card5.png" alt="Responsive image">
+              <p class="text-muted text-left mb-0"><small>XIAOMI MI8 6/128GB (เครื่องศูนย์ไทย)</small></p>
+              <p class="text-left text-danger mb-0">16,590 บาท</p>
+              <div class="row">
+                <div class="col-6">
+                  <p class="text-muted text-left mb-0 "><s><small>17,990 บาท</small></s></p>
+                </div>
+                <div class="col-6">
+                  <p class="text-muted text-right mb-0 "><small>-7%</small></p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <!-- <div class="container"> -->
+  <div class="row mt-5 mb-5 bg-light">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-auto">
+          <p class="font-weight-bold mb-0">topvalue.com</p>
+          <a href="" class="text-dark">เกี่ยวกับเรา</a><br>
+          <a href="" class="text-dark">ขายสินค้ากับเรา</a><br>
+          <a href="" class="text-dark">ร่วมงานกับเรา</a><br>
+          <a href="" class="text-dark">นโยบายและเงื่อนไข</a>
+        </div>
+        <div class="col-auto">
+          <p class="font-weight-bold mb-0">แนะนำการสั่งซื้อ</p>
+          <a href="" class="text-dark">คู่มือนักช้อป</a><br>
+          <a href="" class="text-dark">วิธีการสั่งซื้อสินค้า</a><br>
+          <a href="" class="text-dark">วิธีการชำระเงิน</a><br>
+          <a href="" class="text-dark">วิธีการใช้คูปอง</a><br>
+          <a href="" class="text-dark">วิธีการผ่อนชำระ</a>
+        </div>
+        <div class="col-auto">
+          <p class="font-weight-bold mb-0">บริการ</p>
+          <a href="" class="text-dark">คำถามที่พบบ่อย</a><br>
+          <a href="" class="text-dark">วิธีเปลื่ยน/คืนสินค้า</a><br>
+          <a href="" class="text-dark">ร้องเรียนการบริการ</a><br>
+          <a href="" class="text-dark">สั่งซื้อสินค้าจำนวนมาก</a>
+        </div>
+        <div class="col-5">
+          <p class="font-weight-bold mb-0">รับส่วนลดและสิทธิพิเศษมากมาย</p>
+          <label>กรอกอีเมลของคุณเพื่อรับส่วนลดและโปรโมชั่นพิเศษก่อนใคร</label>
+          <form>
+            <div class="row">
+              <div class="col-5">
+                <input type="text" class="form-control" placeholder="อีเมลของคุณ">
+              </div>
+              <div class="col-auto">
+                <input type="radio">
+                <label>ชาย</label>
+              </div>
+              <div class="col-auto">
+                <input type="radio">
+                <label>หญิง</label>
+              </div>
+              <div class="col-auto">
+                <button type="button" class="btn btn-dark rounded-0">สมัครเลย!</button>
+              </div>
+            </div>
+          </form>
+          <div class="row">
+            <div class="col-5">
+              <p class="mb-0 mt-4">topvalue.com</p>
+              <label>ดาวน์โหลดแอปพลิเคชัน</label>
+            </div>
+            <div class="col-3">
+              <a href="">
+                <img src="images/app-store-icon.png" class="mt-4 mx-0"
+                  style="object-fit: inherit; width:100%; height:50%;">
+              </a>
+            </div>
+            <div class="col-4">
+              <a href="">
+                <img src="images/play-strore-icon.png" class="mt-3 ml-0"
+                  style="object-fit: inherit; width:100%; height:70%;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-5">
+    <div class="container">
+      <div class="row rows-md-4 justify-content-between">
+        <div class="col-auto">
+          <p class="font-weight-bold mb-0">Call Center</p>
+          <label>โทร:1277</label><br>
+          <label>ติดตามสถานะสินค้า: <br>
+            098-824-8824</label><br>
+          <label>Line ID: <br>
+            @topvalue.com</label><br>
+          <label>วันจันทร์-วันเสาร์</label><br>
+          <label>เวลา 08.00-20.00 น.</label><br>
+        </div>
+        <div class="col-auto">
+          <p class="font-weight-bold mb-0">ติดตามข่าวสาร</p>
+          <a href="#"></a>
+          <img src="images/facebook.png" class="my-2 mx-2" style="object-fit: inherit; width: 25px; height:20px;">
+          </a>
+          <a href="#">
+            <img src="images/instagram.png" class="my-2 mx-2"
+              style="object-fit: inherit; width: 25px; height:20px;"><br>
+          </a>
+          <a href="#">
+            <img src="images/line.png" class="my-2 mx-2" style="object-fit: inherit; width: 25px; height:20px;">
+          </a>
+          <a href="#">
+            <img src="images/twitter.png" class="my-2 mx-2" style="object-fit: inherit; width: 25px; height:20px;"><br>
+          </a>
+          <a href="#">
+            <img src="images/youtube.png" class="my-2 mx-2" style="object-fit: inherit; width: 25px; height:20px;">
+          </a>
+          <a href="#">
+            <img src="images/google-plus.png" class="my-2 mx-2" style="object-fit: inherit; width: 25px; height:20px;">
+          </a>
+        </div>
+        <div class="col-auto">
+          <p class="font-weight-bold mb-0">ช่องทางการชำระเงิน</p>
+          <img src="images/visa.png" class="my-2 mx-1" style="object-fit: inherit; width: 25px; height:20px;">
+          <img src="images/mastercard.png" class="my-2 mx-1" style="object-fit: inherit; width: 25px; height:20px;">
+          <img src="images/credit-card.png" class="my-2 mx-1" style="object-fit: inherit; width: 25px; height:20px;">
+        </div>
+        <div class="col-5">
+          <div class="row">
+            <div class="col-6">
+              <p class="font-weight-bold mb-0">บริการจัดส่ง</p>
+              <img src="images/logo.png" class="my-2 mx-1" style="object-fit: inherit; width: 30px; height:15px;">
+              <img src="images/kerry-express-logo.png" class="my-2 mx-1"
+                style="object-fit: inherit; width: 30px; height:15px;">
+              <img src="images/thai-express.jpg" class="my-2 mx-1"
+                style="object-fit: inherit; width: 30px; height:15px;">
+              <img src="images/Cheil_Jedang_logo.png" class="my-2 mx-1"
+                style="object-fit: inherit; width: 30px; height:15px;">
+            </div>
+            <div class="col-6">
+              <p class="font-weight-bold mb-0">ได้รับการตรวจสอบโดย</p>
+              <img src="images/DigiCert-Logo.png" class="my-2 mx-1"
+                style="object-fit: inherit; width: 30px; height:20px;">
+              <img src="images/DBD-L-LOGO-register.jpg" class="my-2 mx-1"
+                style="object-fit: inherit; width: 30px; height:20px;">
+              <img src="images/ocpb-logo.jpg" class="my-2 mx-1" style="object-fit: inherit; width: 30px; height:20px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- </div> -->
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
